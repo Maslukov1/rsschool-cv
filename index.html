@@ -2,96 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/icon/unnamed.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
     <title>CV</title>
 </head>
-<body>
-       <div class="wrapper">
-           <aside>
-               <div class="avatar">
-                   <img src="assets/img/avatar.jpg" alt="photo">
-               </div>
-       <section class="section_aside">
-            <h2 class="contacts">Contacts</h2>
-            <div class="yellow_line"></div>
-            <ul>
-                <li class="contacts con_mail"><a class="vis" href="https://github.com/Maslukov1">
-                        Maslukov1</a></li>
-                <li class="contacts con_telegram"><a class="vis" href="https://t.me/maslov_ilya">
-                    maslov_ilya</a></li>
-                <li class="contacts con_mail"><a class="vis" href="mailto:ilya-maslov1997@mail.ru">
-                    ilya-maslov1997@mail.ru</a></li>
+<body class="body">
+    <div class="wrapper">
+    <header class="header">
+        <nav class="menu">
+            <!-- <div class="openMenu"><i class="fa fa-bars"></i></div> -->
+            <ul class="mainMenu">
+                <li class="ul_li"> <a href="#contacts">Contacts</a></li>
+                <li class="ul_li"><a href="#skills">Skills</a></li>
+                <li class="ul_li"><a href="#aboutMe">About</a></li>
+                <li class="ul_li"><a href="#edu">Education</a></li>
+                <li class="ul_li"><a href="#lang">Languages</a></li>
+                <li class="ul_li"><a href="#codE">Code</a></li>
             </ul>
-       </section>
-       <section class="section_aside">
-           <h2 class="skills">Skills</h2>
-           <div class="yellow_line"></div>
+            <!-- <div class="closeMenu"><i class="fa fa-bars"></i></div> -->
+        </nav>
+    </header>
+    <main class="main">
+        <section class="hight">
+            <div class="avatar">
+                <img src="assets/img/avatar.jpg" alt="photo">
+            </div>
+        <div class="name">
+            <h1 class="h1">Ilya Maslov</h1>
+            <div class="name_line"></div>
+        </div>
+        
+    </section>
+    <div class="line_hight"></div>
+        <section class="sec">
+            <article class="left-aside">
+                <div class="contacts">
+                    <h2 class="contacts__h2">Contacts</h2>
+                    <ul>
+                        <li class="con_git"><a class="vis" href="https://github.com/Maslukov1">
+                                Git Hub</a></li> 
+                        <li class="con_telegram"><a class="vis" href="https://t.me/maslov_ilya">
+                            Telegram</a></li>
+                        <li class="con_mail"><a class="vis" href="mailto:ilya-maslov1997@mail.ru">
+                            ilya-maslov1997@mail.ru</a></li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h2 class="skills__h2">Skills</h2>
            <ul>
                <li class="logoHTML">HTML</li>
                <li class="logoCSS">CSS</li>
                <li class="logoJS">JavaScript</li>
                <li class="logoGit">Git</li>
            </ul>
-       </section>
-       </aside>
-       <main>
-           <nav class="menu">
-               <div class="openMenu"><i class="fa fa-bars"></i></div>
-               <ul class="mainMenu">
-                   <li> <a href=".contacts">Contacts</a></li>
-                   <li><a href="#skills">Skills</a></li>
-                   <li><a href="#aboutMe">About</a></li>
-                   <li><a href="#edu">Education</a></li>
-                   <li><a href="#lang">Languages</a></li>
-                   <li><a href="#codE">Code</a></li>
-               </ul>
-               <div class="closeMenu"><i class="fa fa-bars"></i></div>
-           </nav>
-       <section class="section_aside">
-           <h2 class="aboutMe">About Me</h2>
-           <div class="black_line"></div>
-           <p>I am 25 years old, I work as a foreman in a road organization. But I feel like I'm starting to stagnate there, so I decided to radically change my specialty, 
-            choosing to become a specialist in front-end development.</p>
-            <h3 class="edu">Education</h3>
-            <p>I am going through online training in <a class="link_text"
+                </div>
+                <div class="edu contacts">
+                <h2 class="edu__h2">Education</h2>
+                <p>I am going through online training in <a class="link_text"
                 href="https://rs.school/js/">rs.school</a> on HTML,
-            CSS, JS.</p>
-            <h3 class="lang">Languages</h3>
-            <ul>
-                <li class="lang">Russian - Native speaker</li>
-                <li class="lang">English - Intermediate (B)</li>
-            </ul>
-       
-        <h2>Code Example</h2>
-               <h2>Languages</h2>
-        <li>Russian - native speaker</li>
-        <li>English - A2</li>
-    </section>
-    <section class="code">
-        <h2 class="code">Code example</h2>
-        <div class="black_line"></div>
-        <pre><code class="hljs highlight language-javascript">function century(year) {
+                  CSS, JS.</p> 
+                </div>
+            </article>
+            <article class="right-aside">
+                <div class="summary contacts">
+                    <h2 class="summary__h2">Summary</h2>
+                      <p>I am 25 years old, I work as a foreman in a road organization. But I feel like I'm starting to stagnate there, so I decided to radically change my specialty, 
+            choosing to become a specialist in front-end development.</p>
+                </div>
+                <div class="lang contacts">
+                    <h2 class="lang__h2">Languages</h2>
+                    <ul>
+                        <li class="lang">Russian - Native speaker</li>
+                        <li class="lang">English - Intermediate (B)</li>
+                    </ul>
+                </div>
+                <div class="code contacts">
+                    <h2 class="code__h2">Code example</h2>
+                      <pre><code class="hljs highlight language-javascript">function century(year) {
             if (year % 100 === 0){
                return year / 100;
             } else {
                return Math.floor(year / 100 + 1);
             }"></code>
-        </pre>
-    </section>
+           </pre>
+                </div>
+            </article>
+        </section>
+
     <footer>
-        <div class="footer">
-            <ul>
-                <li>class="footUl"><a href="https://github.com/Maslukov1"> <img id="pic1"
-                    src="assets/svg/github.svg" alt="github"></a></li>
-                <li class="footUl"><a href="https://rs.school/js/"><img id="pic2" src="assets/svg/rs_school.svg"
-                    alt="rs_school"></a></li>
-            </ul>
-        </div>
-    </footer>
-   </main>
-   </div> 
+            <div class="footer">
+                <ul>
+                    <li class="footUl"><a href="https://github.com/Maslukov1"><img id="pic1"
+                        src="assets/svg/github.svg" alt="github"></a></li>
+                    <li class="year">2021</li>   
+                    <li class="footUl"><a href="https://rs.school/js/"><img id="pic2" src="assets/svg/rs_school.svg"
+                        alt="rs_school"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+</div> 
    <script src="script.js"></script>
    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
+<!-- overflow 
+css силекторы -->
