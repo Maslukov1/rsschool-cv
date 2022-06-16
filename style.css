@@ -10,16 +10,13 @@ html {
   }
   
 .body {
-    font-family: 'NanumGothic-Bold';
+    font-family: 'Nanum Gothic', sans-serif;
+    /* font-family: 'NanumGothic-Bold'; */
     font-weight: 400;
     font-size: 17px;
     line-height: 1.5;
 }
-@font-face {
-    font-family: "NanumGothic-Bold";
-    src: url("/assets/fonts/NanumGothic-Bold.ttf");
-    
-}
+
 
 html{
     scroll-behavior: smooth;
@@ -90,9 +87,7 @@ nav .mainMenu li a:hover{
 
 .name {
     color: #0cdf9c;
-    width: 350px;
-    /* position: relative;
-    left: 65%; */
+    /* width: 350px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,6 +173,11 @@ nav .mainMenu li a:hover{
     max-width: 350px;
     padding-bottom: 15px;
     width: 100%;
+}
+
+.contacts
+{
+    padding-bottom: px;
 }
 
 .footer {
